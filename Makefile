@@ -1,6 +1,6 @@
    
 all: 
-	gcc -o evaluator ./postfixe_evaluator.c
+	gcc -o evaluator ./postfix_evaluator.c
 
 clean:
 	rm evaluator

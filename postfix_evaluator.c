@@ -134,11 +134,11 @@ int main(int ac, char **av) {
   int res;
   char *s;
   if (ac < 2) {
-    printf("Usage: %s [expression postfixe]\n", (char *)av[0]);
+    printf("Usage: %s \"[postfix expression]\"\n", (char *)av[0]);
     return EXIT_FAILURE;
   }
   s = (char *)av[1];
   eval(s, &res);
-  printf("Resultat: = %d\n", res);
+  printf("Resultt: = %d\n", res);
   return EXIT_SUCCESS;
 }
